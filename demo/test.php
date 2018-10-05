@@ -1,5 +1,4 @@
 ﻿<?php
-echo 1 ;
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, 'https://httpbin.org/post');
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
